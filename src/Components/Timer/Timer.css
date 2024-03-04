@@ -1,0 +1,15 @@
+.timer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer{
+    font-size: 1.2rem;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    width: 100px;
+    text-align: center;
+}
