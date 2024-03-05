@@ -1,56 +1,42 @@
-/* Generate Vazir Font */
- /* @font-face {
-    font-family: Anjoman-Bold;
-    src: url(../font/vazir/Vazir.ttf);
+/* Generate Anjoman Font */
+@font-face {
+    font-family: Anjoman-Regular;
+    src: url(../../public/fonts/anjoman/Anjoman-Regular.ttf);
 }
 
+@font-face {
+    font-family: Anjoman-Medium;
+    src: url(../../public/fonts/anjoman/Anjoman-Medium.ttf);
+}
+
+@font-face {
+    font-family: Anjoman-SemiBold;
+    src: url(../../public/fonts/anjoman/Anjoman-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Anjoman-Bold;
+    src: url(../../public/fonts/anjoman/Anjoman-Bold.ttf);
+}
+
+@font-face {
+    font-family: Anjoman-ExtraBold;
+    src: url(../../public/fonts/anjoman/Anjoman-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Anjoman-Heavy;
+    src: url(../../public/fonts/anjoman/Anjoman-Heavy.ttf);
+}
+
+/* Generate Bardia Font */
+@font-face {
+    font-family: Bardiya;
+    src: url(../../public/fonts/other/BBardiya.ttf);
+}
+
+/* Generate Bardia Font */
 @font-face {
     font-family: Arshia;
-    src: url(../font/arshia/Far_Arshia.ttf);
-} */
-
-@font-face {
-    font-family: Vazir;
-    src: url(./../../public/fonts/ttf/Vazir.ttf);
+    src: url(../../public/fonts/other/BARSHIA.TTF);
 }
-
-/*@font-face {
-    font-family: Vazir-Bold;
-    src: url(../font/vazir/Vazir-Bold.ttf); 
-}
-
-@font-face {
-    font-family: Vazir-Thin;
-    src: url(../font/vazir/Vazir-Thin.ttf);
-}
-
-@font-face {
-    font-family: Vazir-Light;
-    src: url(../font/vazir/Vazir-Light.ttf);
-}
-
-@font-face {
-    font-family: Vazir-Medium;
-    src: url(../font/vazir/Vazir-Medium.ttf);
-} */
-
-/* Generate Skoda Font */
-/* @font-face {
-    font-family: Skoda;
-    src: url(../font/skoda/skoda-pro.ttf);
-}
-
-@font-face {
-    font-family: Skoda-Light;
-    src: url(../font/skoda/skoda-pro-light.ttf);
-}
-
-@font-face {
-    font-family: Skoda-Medium;
-    src: url(../font/skoda/skoda-pro-medium.ttf);
-}
-
-@font-face {
-    font-family: Skoda-Bold;
-    src: url(../font/skoda/skoda-pro-bold.ttf);
-} */

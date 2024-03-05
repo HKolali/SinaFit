@@ -1,0 +1,50 @@
+.HomeWrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    z-index: 9999;
+}
+
+.textWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.HomeName{
+    font-size: 40px;
+    font-family: Bardiya;
+    color: var(--text-200);
+    font-weight: bold;
+}
+
+#name{
+    font-size: 35px;
+    font-family: Bardiya;
+    color: var(--primary-200);
+    font-weight: bold;
+}
+
+.HomeTitle{
+    font-size: 35px;
+    font-family: Bardiya;
+    color: var(--text-200);
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.HomeDescription{
+    font-size: 27px;
+    font-family: Bardiya;
+    color: var(--text-300);
+    text-align: center;
+    margin-top: 80px;
+    width: 500px;
+    line-height: 45px;
+}
+
+.sinaImage{
+    height: 99vh;
+    filter: drop-shadow( 5px 15px 5px gray);
+}
