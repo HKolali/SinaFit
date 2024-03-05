@@ -7,8 +7,16 @@ export default function Menu() {
 
     const [menu, setMenu] = useState(Data);
 
-    const ClickHandler = (menuItem) => {
+    const clickHandler = (selectedId) => {
+        menu.map(menuItem => {
+            if (menuItem.id === selectedId) {
+                menuItem.isActive = true;
+            } else{
+                menuItem.isActive = false;
+            }
+        })
         
+       setMenu(menu)
     }
 
     return (
@@ -17,7 +25,7 @@ export default function Menu() {
             <div className="menuWrapper">
                 {
                     menu.map(menuItem => (
-                        <Link to={menuItem.to} className='link' onClick={menuItem => ClickHandler()}>
+                        <Link to={menuItem.to} className='link' onClick={() => clickHandler(menuItem.id)}>
                             <div key={menuItem.id} className={`menuItem ${menuItem.isActive ? 'active' : ''}`} >
                                 <span className="menuTitle">{menuItem.title}</span>
                                 <img src={menuItem.icon} className="menuIcon" />
