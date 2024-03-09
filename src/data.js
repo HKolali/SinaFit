@@ -8,4 +8,11 @@ let menu = [
     {id:7, title:"ارتباط با من", icon:"./image/menu-icon/contact.png" , isActive:false, to:"/contact-me"}
 ]
 
-export default menu;
+let service = [
+    {id:1, title:"برنامه تمرینی", desc:"برنامه تمرینی با جدیدترین سیستم های تمرینی", image:"./image/service/program.png" , alt:"برنامه تمرینی"},
+    {id:2, title:"برنامه غذایی", desc:"ارائه برنامه غذایی مطابق با هدف شما", image:"./image/service/healthy-food.png" , alt:"برنامه غذایی"},
+    {id:3, title:"تمرین در منزل", desc:"برنامه تمرین در منزل متناسب با امکانات شما", image:"./image/service/stay-at-home.png" , alt:"تمرین در منزل"},
+    {id:4, title:"مشاوره ورزشی", desc:"مشاوره ورزشی با مربی بدنسازی", image:"./image/service/conversation.png" , alt:"مشاوره ورزشی"},
+]
+
+export {menu, service};

@@ -31,8 +31,8 @@ export default function Particle() {
                             mode: "push",
                         },
                         onHover: {
-                            enable: true,
-                            mode: "repulse",
+                            // enable: true,
+                            // mode: "repulse",
                         },
                         resize: true,
                     },
@@ -49,12 +49,13 @@ export default function Particle() {
                 particles: {
                     color: {
                         value: "#c4bcab",
+                        opacity: 0.4,
                     },
                     links: {
                         color: "#c4bcab",
                         distance: 150,
                         enable: true,
-                        opacity: 0.5,
+                        opacity: 0.4,
                         width: 1,
                     },
                     move: {
@@ -64,7 +65,7 @@ export default function Particle() {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 4,
                         straight: false,
                     },
                     number: {
