@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="app">
-      <Particle/>
+      {/* <Particle/> */}
       <div className="leftSide">
         {router}
       </div>

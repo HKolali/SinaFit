@@ -1,7 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+
+@import "./fonts.css";
+@import "./variable.css";
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -32,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	font-family: Bardiya;
+	overflow: hidden;
 }
 
 ol, ul {

@@ -51,9 +51,8 @@
 
 .menuTitle{
     color: var(--text-200);
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 10px;
-    font-family: Anjoman-Medium;
     cursor: pointer;
     color: var(--text-200);
 }

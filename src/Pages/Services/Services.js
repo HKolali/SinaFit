@@ -6,30 +6,24 @@ import './Services.css'
 export default function Services() {
 
   const [serviceItems, setServiceItems] = useState(service)
+  console.log(serviceItems);
 
   return (
     <div className='services'>
-      <div className="leftSection"></div>
+      <div className="leftSection">
+        <h3 className='serviceTitle'>پشتیبانی کامل از شاگردان</h3>
+        <img className='leftSectionImage' src="./image/service/question-and-answer.png" alt="" />
+      </div>
       <div className="rightSection">
-        <div className='serviceItem'>
-          <Service />
+        <div className='serviceWrap'>
+          {
+            serviceItems.map(serviceItem => (
+              <div className='serviceItem'>
+                <Service key={serviceItem.id} {...serviceItem} />
+              </div>
+            ))
+          }
         </div>
-        <div className='serviceItem'>
-          <Service />
-        </div>
-        <div className='serviceItem'>
-          <Service />
-        </div>
-        <div className='serviceItem'>
-          <Service />
-        </div>
-        
-        {/* {
-          serviceItems.map(serviceItem => {
-            <Service key={serviceItem.id} {...serviceItem}/>
-            // console.log(serviceItem.title);
-          })
-        } */}
       </div>
     </div>
   )
